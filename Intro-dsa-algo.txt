@@ -1,0 +1,26 @@
+------ Topics get cover in whole series ----
+
+1. Basic Data Structures
+2. Big O notation
+3. Searching Algorithms
+4. Sorting Algorithms
+5. Graphs
+6. Trees
+
+-------------------------------
+
+Data Structure :-
+It is a named location that can be used to store and organise data.
+OR 
+It is a way of organising data such that it can be used efficiently.
+
+Example :- Arrays, Trees etc.
+
+-------------------------------
+
+Algorithm :-
+An Algorithm is collection of steps to solve a problem.
+OR
+It is a set of instructions to solve a problem or accomplishing a task.
+
+Example :- Linear Search, Binary Search etc.

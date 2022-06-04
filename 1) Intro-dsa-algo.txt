@@ -24,3 +24,12 @@ OR
 It is a set of instructions to solve a problem or accomplishing a task.
 
 Example :- Linear Search, Binary Search etc.
+
+-------------------------------
+
+Why learn DSA?
+
+We can write code that is more time and memory efficient with the help
+of dsa.
+
+------------------------------

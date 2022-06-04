@@ -7,7 +7,8 @@
  *          --> pop() to remove object from the top        
  */
 
- import java.util.Stack;
+ import java.util.Iterator;
+import java.util.Stack;
 
  public class Stack_2{
 
@@ -34,9 +35,18 @@
         int itemPos = proLang.search("Python"); // search method is used to get position of item in stack
         System.out.println(itemPos); // prints 2 (python is on 2nd place) if does not found returns -1
 
+        
+        // How to iterate through a stack
+        Iterator values = proLang.iterator(); // The method iterates over the elements of the stack and returns the values(iterators)
+
+        while(values.hasNext()){ // hasNext() checks if the iteration has more values
+           System.out.println(values.next()); // next() returns next value in iteration
+        }
+
         proLang.clear(); // removes everything from the stack
         System.out.println(proLang); // prints empty stack --> []
 
+        
         /*
          *  We can use for/while loop to push or pop multiple times
          *  OutOfMemory : Java heap space ...  Error comes when we push items alot of times

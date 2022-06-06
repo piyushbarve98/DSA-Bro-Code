@@ -11,12 +11,12 @@ import java.util.LinkedList;
 //          add- enqueue -> offer() --> enters from last
 //          remove- dequeue -> poll() --> removes from start
 // -----------------------------------------------------------------------------
-public class Linked_List_3 {
+public class Queue_3 {
     
 
     public static void main(String[] args){
     // Queue<String> queue = new Queue<String>(); we can not instantiate queue like this because 
-    // it is an interface not a class so we can implement it through linked list 
+    // it is an interface not a class so we can implement it through linked list class
 
     Queue<String> ticketLine = new LinkedList<String>();
 
